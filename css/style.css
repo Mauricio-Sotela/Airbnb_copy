@@ -40,7 +40,7 @@ nav li:hover{
   transition: 300ms ease-out;
 }
 .main{
-  background-image: url(/bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
