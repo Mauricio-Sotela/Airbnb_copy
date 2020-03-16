@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+nav{
+  width: 100vw;
+  display: inline-flex;
+justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 60px;
+}
+nav .menu>ul{
+  display:inline-flex;
+}
+nav li{
+  margin-right: 20px;
+  color: white;
+  list-style: none;
+ font-size: 19px;
+ 
+}
+
+nav li:hover{
+  cursor: pointer;
+  border-bottom: 2px solid white;
+  transition: 300ms ease-out;
+}
+.main{
+  background-image: url(/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.formular{
+  
+padding: 15px 35px;
+  background:rgb(245, 244, 241);
+  width: 450px;
+  margin: 60px 0 0 100px;
+  border-radius: 5px;
+  height: 500px;
+  
+}
+.formular>.lugar,.huesp{
+  width: 100%;
+  border-radius: 5px;
+  
+}
+.formular>h1{
+  margin-top: 7px;
+  color: #484848;
+}
+.formular>p{
+  color: #484848;
+}
+.formular>p>span{
+  margin-left: 32%;
+}
+input{
+  padding-left: 15px;
+  font-size: 16px;
+  border: 1px solid rgb(235, 235, 235);
+  outline: none;
+  height: 50px;
+  
+}
+input:focus{
+  border: 1px solid springgreen ;
+}
+.date{
+
+}
+.date>input{
+  width: 49%;
+ 
+  margin-right: 0;
+ 
+  border-radius: 5px;
+}
+.div-sub{
+  text-align: end;
+
+}
+.submit{
+  margin-top: 20px;
+  padding: 10px;
+  background-color:rgb(238, 97, 97);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 110px;
+}
+
+.lugares{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 230px;
+  color: white;
+  padding-right: 20px;
+  text-align: right;
+}
+
+input[type="date"]{
+  color: #95a5a6;
+}
