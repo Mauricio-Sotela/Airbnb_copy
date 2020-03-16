@@ -21,24 +21,24 @@ nav{
   width: 100vw;
   display: flex;
 justify-content: space-between;
-  padding-left: 20px;
-  padding-top: 20px;
-  height: 60px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  height: 6rem;
 }
 nav .menu>ul{
   display:inline-flex;
 }
 nav li{
-  margin-right: 20px;
+  margin-right: 2rem;
   color: white;
   list-style: none;
- font-size: 19px;
+ font-size: 2rem;
  
 }
 
 nav li:hover{
   cursor: pointer;
-  border-bottom: 2px solid white;
+  border-bottom: .2rem solid white;
   transition: 300ms ;
 }
 .main{
@@ -47,22 +47,22 @@ nav li:hover{
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  min-width: 514px;
+  min-width: 51.4rem;
 }
 .formular{
   
-padding: 15px 35px;
+padding: 1.5rem 3.5rem;
   background:rgb(245, 244, 241);
   width: fit-content;
-  max-width: 450px;
+  max-width: 45rem;
   margin: 9vh 0 0 10vw;
-  border-radius: 5px;
+  border-radius: .5rem;
   height: fit-content;
   
 }
 .formular>.lugar,.huesp{
   width: 100%;
-  border-radius: 5px;
+  border-radius: .5rem;
   
 }
 .formular>h1{
@@ -77,15 +77,15 @@ padding: 15px 35px;
   margin-left: 32%;
 }
 input{
-  padding-left: 15px;
-  font-size: 16px;
-  border: 1px solid rgb(235, 235, 235);
+  padding-left: 1.5rem;
+  font-size: 1.6rem;
+  border: .1rem solid rgb(235, 235, 235);
   outline: none;
   height: 3em;
   
 }
 input:focus{
-  border: 1px solid springgreen ;
+  border: .1rem solid springgreen ;
 }
 
 .date>input{
@@ -93,31 +93,31 @@ input:focus{
  
   margin-right: 0;
  
-  border-radius: 5px;
+  border-radius: .5rem;
 }
 .div-sub{
   text-align: end;
 
 }
 .submit{
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 2rem;
+  padding: 1rem;
   background-color:rgb(238, 97, 97);
   color: white;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.6rem;
   border: none;
-  border-radius: 5px;
-  width: 7em;
+  border-radius: .5rem;
+  width: 10rem;
 }
 
 .lugares{
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 230px;
+  width: 23rem;
   color: white;
-  padding-right: 20px;
+  padding-right: 2rem;
   text-align: right;
 }
 
